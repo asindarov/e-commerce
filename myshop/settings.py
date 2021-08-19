@@ -161,16 +161,16 @@ CART_SESSION_ID = 'cart'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'asindarov07@gmail.com'
-EMAIL_HOST_PASSWORD = 'ejlgnuwfqnsjinod'
+EMAIL_HOST_USER = 'e-mail@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 
 # Braintree settings
-BRAINTREE_MERCHANT_ID = '2bz4p47cx4cpb4k9'
-BRAINTREE_PUBLIC_KEY = 'p4kvmnxp2t9v94jn'
-BRAINTREE_PRIVATE_KEY = '6058a9efb4fd3a996c513be06b5266e7'
+BRAINTREE_MERCHANT_ID = 'ID'
+BRAINTREE_PUBLIC_KEY = 'KEY'
+BRAINTREE_PRIVATE_KEY = 'P_KEY'
 
 import braintree
 BRAINTREE_CONF = braintree.Configuration(
